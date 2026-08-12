@@ -21,6 +21,7 @@ export default function About({ dict }: { dict: Dictionary }) {
               alt={dict.about.imageAlt}
               width={440}
               height={330}
+              loading="lazy"
               className="img-quiet aspect-[4/3] w-full object-cover"
             />
           </Reveal>

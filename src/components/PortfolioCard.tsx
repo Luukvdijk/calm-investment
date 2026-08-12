@@ -19,6 +19,7 @@ export default function PortfolioCard({
         alt={item.name}
         width={360}
         height={220}
+        loading="lazy"
         className="img-quiet aspect-[8/5] w-full object-cover"
       />
       <h3 className="label mt-5 text-sm tracking-[0.12em] text-ink">

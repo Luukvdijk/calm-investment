@@ -44,6 +44,7 @@ export default function Hero({ lang, dict }: { lang: string; dict: Dictionary })
               alt={dict.hero.imageAlt}
               width={480}
               height={480}
+              fetchPriority="high"
               className="img-quiet relative aspect-square w-full max-w-[480px] object-cover"
             />
           </div>

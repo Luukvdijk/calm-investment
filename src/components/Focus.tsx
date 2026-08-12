@@ -41,6 +41,7 @@ export default function Focus({ dict }: { dict: Dictionary }) {
               alt={dict.focus.imageAlt}
               width={480}
               height={280}
+              loading="lazy"
               className="img-quiet relative aspect-[12/7] w-full object-cover"
             />
           </div>

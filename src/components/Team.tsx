@@ -26,6 +26,7 @@ export default function Team({ dict }: { dict: Dictionary }) {
                 alt={member.imageAlt}
                 width={320}
                 height={380}
+                loading="lazy"
                 className="img-quiet mx-auto aspect-[5/6] w-full max-w-[320px] object-cover"
               />
               <div className="mt-6 flex items-center justify-center gap-3">

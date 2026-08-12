@@ -6,6 +6,7 @@ import { siteUrl, languageAlternates } from "@/lib/site";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import CookieConsent from "@/components/CookieConsent";
+import JsonLd from "@/components/JsonLd";
 import "../globals.css";
 
 const cormorant = Cormorant_Garamond({
@@ -49,8 +50,17 @@ export async function generateMetadata({
       url: `${siteUrl}/${lang}`,
       locale: lang === "nl" ? "nl_NL" : "en_US",
     },
+    twitter: {
+      card: "summary_large_image",
+      title: dict.meta.title,
+      description: dict.meta.description,
+    },
   };
 }
+
+export const viewport = {
+  themeColor: "#33503f",
+};
 
 export default async function RootLayout({
   children,
@@ -66,6 +76,7 @@ export default async function RootLayout({
   return (
     <html lang={lang} className={`${cormorant.variable} ${instrument.variable}`}>
       <body>
+        <JsonLd lang={lang as Locale} dict={dict} />
         <Nav lang={lang} dict={dict} />
         <main>{children}</main>
         <Footer lang={lang} dict={dict} />
