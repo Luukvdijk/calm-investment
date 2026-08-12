@@ -1,0 +1,288 @@
+{
+  "meta": {
+    "title": "Calm Investments | Ondernemende investeringsmaatschappij, Rotterdam",
+    "description": "Calm Investments is een onafhankelijke, ondernemende investeringsmaatschappij uit Rotterdam, gericht op overnames van en deelnemingen in Nederlandse mkb-bedrijven met een leidende rol in hun markt."
+  },
+  "nav": {
+    "about": "Over Ons",
+    "approach": "Aanpak",
+    "portfolio": "Deelnemingen",
+    "contact": "Contact"
+  },
+  "hero": {
+    "label": "Long-term partnership",
+    "title": "Partnering with entrepreneurs for the long term.",
+    "subtitle": "Een onafhankelijke, ondernemende investeringsmaatschappij, gericht op overnames van en deelnemingen in kleine en middelgrote bedrijven met een leidende rol in hun markt.",
+    "ctaPrimary": "Neem contact op",
+    "ctaSecondary": "Ons verhaal",
+    "imageAlt": "The Blaak House, kantoor van Calm Investments in Rotterdam"
+  },
+  "about": {
+    "title": "De Kracht van Rust",
+    "paragraphs": [
+      "Calm Investments is in 2021 opgericht in Rotterdam. Wij zijn een onafhankelijke, ondernemende investeringsmaatschappij die zich richt op overnames van en deelnemingen in kleine en middelgrote bedrijven met een leidende positie in hun nichemarkt.",
+      "Wij werken samen op basis van transparantie, integriteit en wederzijds vertrouwen. Vanuit een teamcultuur investeren wij in toonaangevende nichebedrijven met een onderscheidend aanbod en ondersteunen wij het management actief bij strategie, analyse, operatie en overnames."
+    ],
+    "stats": [
+      { "value": "20+", "label": "Bedrijven overgenomen en geïntegreerd" },
+      { "value": "2021", "label": "Opgericht in Rotterdam" }
+    ],
+    "imageAlt": "Analyse van bedrijfscijfers op een scherm"
+  },
+  "approach": {
+    "label": "Ons DNA",
+    "title": "Aanpak",
+    "intro": "Samen met het management bepalen we waar ondersteuning nodig is, om met een ondernemende aanpak het langetermijnpotentieel van het bedrijf te verzilveren.",
+    "pillars": [
+      {
+        "title": "Ondernemend Partnerschap",
+        "text": "Wij staan zij aan zij met het management en werken samen op basis van transparantie, integriteit en wederzijds vertrouwen."
+      },
+      {
+        "title": "Data & Analyse",
+        "text": "Data-analyse die cijfers vertaalt naar de juiste vragen en beslissingen om het bedrijf vooruit te brengen."
+      },
+      {
+        "title": "Groeistrategie & Overnames",
+        "text": "Het ontwikkelen van groeistrategieën en het beoordelen en uitvoeren van overnames (M&A)."
+      },
+      {
+        "title": "Financiële & Operationele Steun",
+        "text": "Financiële ondersteuning en operationele samenwerking, afgestemd op wat het bedrijf nodig heeft."
+      }
+    ]
+  },
+  "portfolio": {
+    "title": "Deelnemingen",
+    "subtitle": "Bekijk waar wij in geloven en mee groeien.",
+    "viewItem": "Bezoek website",
+    "viewAll": "Alle deelnemingen",
+    "pageLabel": "Portfolio",
+    "pageTitle": "Deelnemingen",
+    "pageIntro": "Een overzicht van de ondernemingen waar wij aan verbonden zijn. Stuk voor stuk Nederlandse nichebedrijven met een sterk fundament, een leidende marktpositie en ruimte om te groeien.",
+    "backHome": "Terug naar home"
+  },
+  "focus": {
+    "label": "Specialisatie",
+    "title": "Focusgebieden",
+    "intro": "Wij richten ons op Nederlandse bedrijven met een leidende rol in hun nichemarkt.",
+    "areas": [
+      "Niche Manufacturing",
+      "Value-added Distribution",
+      "Food",
+      "Machine Building",
+      "Healthcare & Pharma"
+    ],
+    "criteriaTitle": "Investeringscriteria",
+    "criteria": [
+      "EBITDA tussen EUR 0,5 en 5 miljoen",
+      "Marktleiders in een niche met een bedrijfskritisch aanbod",
+      "Sterke prijs-kwaliteitpropositie voor klanten",
+      "Consistente winstgevendheid over de jaren",
+      "Aantoonbaar groeipotentieel",
+      "Ervaren managementteam"
+    ],
+    "imageAlt": "Analyse van bedrijfscijfers op een laptop"
+  },
+  "team": {
+    "title": "Menselijk Kapitaal",
+    "members": [
+      {
+        "name": "Olav van Caldenborgh",
+        "role": "Founder",
+        "bio": "Olav richtte Calm Investments op in 2021. Daarvoor werkte hij bij Caldic, distributeur en producent van specialty chemicals en voedingsingrediënten, waarvan de laatste 15 jaar als CEO. Met een ondernemende aanpak heeft hij meer dan 20 bedrijven overgenomen, geïntegreerd en geholpen met hun volgende stap.",
+        "personality": "Olav is een no-nonsense teamspeler met een sterk gevoel voor cijfers: hij vertaalt financiën naar de juiste vragen om een bedrijf vooruit te brengen.",
+        "linkedin": "https://www.linkedin.com/in/olav-van-caldenborgh-1501752/",
+        "image": "/images/team-olav.svg",
+        "imageAlt": "Portret van Olav van Caldenborgh"
+      },
+      {
+        "name": "Jonathan van der Helm",
+        "role": "Founder",
+        "bio": "Jonathan is medeoprichter van Calm Investments (2021). Daarvoor werkte hij als strategieconsultant bij Roland Berger, waar hij ruim 15 projecten afrondde rond groeistrategie, herstructurering en post-merger integratie. Hij studeerde Offshore Engineering (MSc) en Werktuigbouwkunde (BSc) aan de TU Delft.",
+        "personality": "Jonathan is een analytische enthousiasteling met een can-do-mentaliteit: open-minded, sterk in communicatie en probleemoplossend vermogen.",
+        "linkedin": "https://www.linkedin.com/in/jonathan-van-der-helm-a3707735/",
+        "image": "/images/team-jonathan.svg",
+        "imageAlt": "Portret van Jonathan van der Helm"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Zullen we praten?",
+    "text": "Heeft u een onderneming die toe is aan de volgende fase, of zoekt u een partner die verder kijkt dan de volgende kwartaalcijfers?",
+    "addressLabel": "The Blaak House",
+    "address": "Blaak 34, 3011 TA Rotterdam",
+    "phone": "+316-1233 8883",
+    "email": "j.vanderhelm@calminvestments.com",
+    "form": {
+      "name": "Naam",
+      "namePlaceholder": "Uw volledige naam",
+      "email": "E-mail",
+      "emailPlaceholder": "e-mail@adres.nl",
+      "message": "Bericht",
+      "messagePlaceholder": "Hoe kunnen we u helpen?",
+      "submit": "Verzend bericht",
+      "sending": "Versturen...",
+      "success": "Bedankt voor uw bericht. Wij nemen binnen twee werkdagen contact met u op.",
+      "errors": {
+        "nameRequired": "Vul uw naam in.",
+        "emailRequired": "Vul uw e-mailadres in.",
+        "emailInvalid": "Vul een geldig e-mailadres in.",
+        "messageRequired": "Vul een bericht in.",
+        "captchaRequired": "Rond de beveiligingscontrole af.",
+        "generic": "Er ging iets mis bij het versturen. Probeer het later opnieuw of mail ons direct.",
+        "rateLimited": "Te veel verzoeken. Probeer het over enkele minuten opnieuw."
+      }
+    }
+  },
+  "footer": {
+    "description": "Onafhankelijke, ondernemende investeringsmaatschappij met een hart voor het mkb en een oog voor de lange termijn. Rotterdam, sinds 2021.",
+    "navigateLabel": "Navigatie",
+    "legalLabel": "Legal",
+    "legal": [
+      { "label": "Privacyverklaring", "href": "/privacy" },
+      { "label": "Algemene voorwaarden", "href": "/voorwaarden" },
+      { "label": "LinkedIn", "href": "https://www.linkedin.com/company/80161694/" }
+    ],
+    "copyright": "Calm Investments. Alle rechten voorbehouden.",
+    "tagline": "Invest with Patience. Grow with Calm."
+  },
+  "cookieBanner": {
+    "text": "Wij gebruiken analytische cookies (Google Analytics) om het gebruik van deze website te meten. Deze plaatsen wij alleen met uw toestemming.",
+    "accept": "Accepteren",
+    "reject": "Weigeren",
+    "more": "Meer informatie",
+    "settings": "Cookie-instellingen"
+  },
+  "legalPages": {
+    "privacy": {
+      "title": "Privacyverklaring",
+      "updated": "Laatst bijgewerkt: 12 augustus 2026",
+      "sections": [
+        {
+          "title": "1. Wie wij zijn",
+          "paragraphs": [
+            "Calm Investments is een onafhankelijke, ondernemende investeringsmaatschappij, gevestigd in The Blaak House, Blaak 34, 3011 TA Rotterdam. Calm Investments is verwerkingsverantwoordelijke voor de persoonsgegevens die via deze website worden verwerkt.",
+            "Voor vragen over deze privacyverklaring kunt u contact opnemen via j.vanderhelm@calminvestments.com of +316-1233 8883."
+          ]
+        },
+        {
+          "title": "2. Welke gegevens wij verwerken",
+          "paragraphs": [
+            "Contactformulier: wanneer u het contactformulier invult, verwerken wij uw naam, e-mailadres en de inhoud van uw bericht.",
+            "Technische gegevens: bij het bezoeken van de website worden beperkte technische gegevens verwerkt (zoals IP-adres en browserinformatie) voor de veilige en correcte werking van de website, waaronder spambescherming en het beperken van misbruik van het contactformulier.",
+            "Statistieken: als u daarvoor toestemming geeft, verwerken wij via Google Analytics 4 gegevens over uw websitebezoek (zoals bezochte pagina's, bezoekduur en globale locatie) om het gebruik van de website te analyseren."
+          ]
+        },
+        {
+          "title": "3. Waarvoor wij uw gegevens gebruiken",
+          "paragraphs": [
+            "Wij gebruiken de gegevens uit het contactformulier uitsluitend om uw bericht te beantwoorden en met u in contact te treden. De grondslag hiervoor is de uitvoering van uw verzoek (precontractuele fase) dan wel ons gerechtvaardigd belang om te reageren op berichten die aan ons zijn gericht.",
+            "Technische gegevens verwerken wij op grond van ons gerechtvaardigd belang bij een veilige en goed functionerende website. Statistieken via Google Analytics verwerken wij uitsluitend op basis van uw toestemming, om de website te verbeteren.",
+            "Wij gebruiken uw gegevens niet voor marketing en verkopen deze nooit aan derden."
+          ]
+        },
+        {
+          "title": "4. Verwerkers en ontvangers",
+          "paragraphs": [
+            "Wij maken gebruik van de volgende verwerkers: Resend (Plus Five Five, Inc., Verenigde Staten) voor het versturen en afleveren van e-mail vanuit het contactformulier, waarbij uw naam, e-mailadres en bericht via de systemen van Resend worden verwerkt; Cloudflare Turnstile (Cloudflare, Inc.) voor spambescherming op het formulier; en Google Analytics 4 (Google Ireland Ltd.) voor websitestatistieken, uitsluitend na uw toestemming.",
+            "Met deze partijen zijn verwerkersovereenkomsten van toepassing. Doorgifte buiten de EER vindt plaats op basis van passende waarborgen, zoals het EU-U.S. Data Privacy Framework of standaardcontractbepalingen.",
+            "Wij delen uw gegevens verder niet met derden, tenzij wij daartoe wettelijk verplicht zijn."
+          ]
+        },
+        {
+          "title": "5. Bewaartermijnen",
+          "paragraphs": [
+            "Berichten via het contactformulier bewaren wij niet langer dan nodig voor de afhandeling van uw verzoek, en maximaal twee jaar na het laatste contact, tenzij een langere bewaartermijn wettelijk verplicht is of nodig is voor een lopende zakelijke relatie."
+          ]
+        },
+        {
+          "title": "6. Cookies",
+          "paragraphs": [
+            "Functionele cookies: deze website plaatst een cookie die uw taalkeuze onthoudt (NEXT_LOCALE) en eventuele functionele cookies van Cloudflare Turnstile die nodig zijn voor spambescherming. Voor deze functionele cookies is geen toestemming vereist.",
+            "Analytische cookies: wij gebruiken Google Analytics 4 om te meten hoe de website wordt gebruikt. Deze cookies worden pas geplaatst nadat u daarvoor toestemming heeft gegeven. U kunt uw keuze op elk moment wijzigen of intrekken; zonder toestemming worden er geen analytische cookies geplaatst.",
+            "Deze website gebruikt geen advertentie- of trackingcookies van derden."
+          ]
+        },
+        {
+          "title": "7. Uw rechten",
+          "paragraphs": [
+            "U heeft het recht op inzage, rectificatie en verwijdering van uw persoonsgegevens, het recht op beperking van de verwerking, het recht op overdraagbaarheid en het recht om bezwaar te maken tegen de verwerking. U kunt hiervoor contact opnemen via j.vanderhelm@calminvestments.com.",
+            "Bent u van mening dat wij onjuist met uw persoonsgegevens omgaan, dan heeft u het recht een klacht in te dienen bij de Autoriteit Persoonsgegevens (autoriteitpersoonsgegevens.nl)."
+          ]
+        },
+        {
+          "title": "8. Wijzigingen",
+          "paragraphs": [
+            "Wij kunnen deze privacyverklaring van tijd tot tijd aanpassen. De meest actuele versie staat altijd op deze pagina, met bovenaan de datum van de laatste wijziging."
+          ]
+        }
+      ]
+    },
+    "terms": {
+      "title": "Algemene voorwaarden",
+      "updated": "Laatst bijgewerkt: 12 augustus 2026",
+      "sections": [
+        {
+          "title": "1. Toepasselijkheid",
+          "paragraphs": [
+            "Deze voorwaarden zijn van toepassing op het gebruik van de website van Calm Investments, gevestigd in The Blaak House, Blaak 34, 3011 TA Rotterdam. Door deze website te gebruiken, aanvaardt u deze voorwaarden."
+          ]
+        },
+        {
+          "title": "2. Informatie is geen advies of aanbod",
+          "paragraphs": [
+            "De inhoud van deze website is uitsluitend bedoeld als algemene informatie over Calm Investments en haar activiteiten. Niets op deze website vormt een aanbod, uitnodiging of aanbeveling tot het kopen of verkopen van effecten of andere financiële instrumenten, en evenmin beleggingsadvies, juridisch advies of fiscaal advies.",
+            "Aan de inhoud van deze website kunnen geen rechten worden ontleend. Voor beslissingen op basis van informatie op deze website raden wij u aan onafhankelijk professioneel advies in te winnen."
+          ]
+        },
+        {
+          "title": "3. Intellectueel eigendom",
+          "paragraphs": [
+            "Alle rechten van intellectueel eigendom op de inhoud van deze website, waaronder teksten, vormgeving en beeldmateriaal, berusten bij Calm Investments of haar licentiegevers. Het is niet toegestaan de inhoud zonder voorafgaande schriftelijke toestemming te verveelvoudigen of openbaar te maken, anders dan voor persoonlijk, niet-commercieel gebruik."
+          ]
+        },
+        {
+          "title": "4. Aansprakelijkheid",
+          "paragraphs": [
+            "Calm Investments besteedt de grootst mogelijke zorg aan de juistheid en actualiteit van de informatie op deze website, maar geeft geen garanties met betrekking tot de volledigheid, juistheid of actualiteit daarvan.",
+            "Calm Investments is niet aansprakelijk voor schade die voortvloeit uit het gebruik van deze website of uit de tijdelijke onbereikbaarheid daarvan, behoudens voor zover die schade het gevolg is van opzet of bewuste roekeloosheid van Calm Investments."
+          ]
+        },
+        {
+          "title": "5. Links naar websites van derden",
+          "paragraphs": [
+            "Deze website bevat links naar websites van derden, waaronder de websites van deelnemingen. Calm Investments heeft geen zeggenschap over deze websites en is niet verantwoordelijk voor de inhoud of het privacybeleid daarvan."
+          ]
+        },
+        {
+          "title": "6. Toepasselijk recht",
+          "paragraphs": [
+            "Op het gebruik van deze website en deze voorwaarden is Nederlands recht van toepassing. Geschillen worden bij uitsluiting voorgelegd aan de bevoegde rechter te Rotterdam."
+          ]
+        },
+        {
+          "title": "7. Contactformulier en e-mail",
+          "paragraphs": [
+            "Berichten die u via het contactformulier verstuurt, worden per e-mail aan ons afgeleverd via onze e-maildienstverlener Resend. Op de verwerking van uw persoonsgegevens daarbij is onze privacyverklaring van toepassing. Het contactformulier is beveiligd met Cloudflare Turnstile tegen misbruik en spam.",
+            "E-mailcommunicatie is niet gegarandeerd veilig of tijdig. Verstuur geen vertrouwelijke of koersgevoelige informatie via het contactformulier."
+          ]
+        },
+        {
+          "title": "8. Wijzigingen",
+          "paragraphs": [
+            "Calm Investments kan deze voorwaarden van tijd tot tijd aanpassen. De meest actuele versie staat altijd op deze pagina."
+          ]
+        }
+      ]
+    }
+  },
+  "errors": {
+    "notFoundTitle": "Pagina niet gevonden",
+    "notFoundText": "De pagina die u zoekt bestaat niet of is verplaatst.",
+    "errorTitle": "Er ging iets mis",
+    "errorText": "Er is een onverwachte fout opgetreden. Probeer het opnieuw.",
+    "retry": "Opnieuw proberen",
+    "backHome": "Terug naar home"
+  }
+}

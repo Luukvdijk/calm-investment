@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c9c9c4"/>
+      <stop offset="1" stop-color="#8f918c"/>
+    </linearGradient>
+    <linearGradient id="b1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5a5e59"/>
+      <stop offset="1" stop-color="#33372f"/>
+    </linearGradient>
+    <linearGradient id="b2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#787c76"/>
+      <stop offset="1" stop-color="#484c46"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="480" fill="url(#sky)"/>
+  <rect x="40" y="150" width="190" height="330" fill="url(#b2)"/>
+  <rect x="200" y="80" width="240" height="400" fill="url(#b1)"/>
+  <g fill="#20261f" opacity="0.35">
+    <rect x="60" y="170" width="150" height="6"/><rect x="60" y="200" width="150" height="6"/>
+    <rect x="60" y="230" width="150" height="6"/><rect x="60" y="260" width="150" height="6"/>
+    <rect x="60" y="290" width="150" height="6"/><rect x="60" y="320" width="150" height="6"/>
+    <rect x="60" y="350" width="150" height="6"/><rect x="60" y="380" width="150" height="6"/>
+  </g>
+  <g fill="#d9d9d4" opacity="0.28">
+    <rect x="220" y="100" width="14" height="360"/><rect x="252" y="100" width="14" height="360"/>
+    <rect x="284" y="100" width="14" height="360"/><rect x="316" y="100" width="14" height="360"/>
+    <rect x="348" y="100" width="14" height="360"/><rect x="380" y="100" width="14" height="360"/>
+    <rect x="412" y="100" width="14" height="360"/>
+  </g>
+  <rect x="0" y="440" width="480" height="40" fill="#3a3e38"/>
+</svg>

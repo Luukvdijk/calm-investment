@@ -1,0 +1,44 @@
+{
+  "_hint": "Add, remove or edit portfolio companies here. 'featured' items (max 3) show on the homepage. Tags and summary have an 'nl' and 'en' version. Status: 'active' or 'exit'. 'website' is optional.",
+  "items": [
+    {
+      "id": "mineraux",
+      "name": "Minéraux",
+      "featured": true,
+      "status": "active",
+      "image": "/images/portfolio-mineraux.svg",
+      "website": "https://www.mineraux.nl/",
+      "tags": { "nl": ["Maakindustrie", "Witte pigmenten"], "en": ["Manufacturing", "White pigments"] },
+      "summary": {
+        "nl": "Producent van witte pigmenten met een uniek voordeel: het enige veilige en even witte alternatief voor titaniumdioxide (E171) ter wereld, voor onder meer voedselcontact, kunststoffen, inkten en speelgoed.",
+        "en": "White pigment manufacturer with a competitive edge: the world's only replacement for titanium dioxide (E171) that is safe and equally white, for food contact, plastics, inks and toys."
+      }
+    },
+    {
+      "id": "koekjesbakkerij-veldt",
+      "name": "Koekjesbakkerij Veldt",
+      "featured": true,
+      "status": "active",
+      "image": "/images/portfolio-veldt.svg",
+      "website": "https://www.koekjesbakkerij.nl/",
+      "tags": { "nl": ["Food", "Veenendaal"], "en": ["Food", "Veenendaal"] },
+      "summary": {
+        "nl": "Producent van traditionele koekjes en biscuits in Veenendaal. Met een leidende marktpositie en innovatieve strategie levert Veldt ambachtelijke koekjes aan retail, bakkerijgroothandels en foodservice.",
+        "en": "Producer of traditional biscuits and cookies located in Veenendaal. With its leading market position and innovative strategy, Veldt supplies artisan biscuits to retail, bakery wholesale customers and the food service industry."
+      }
+    },
+    {
+      "id": "krakend-vers",
+      "name": "Krakend Vers",
+      "featured": true,
+      "status": "active",
+      "image": "/images/portfolio-onoats.svg",
+      "website": "https://onoats.nl/",
+      "tags": { "nl": ["Food", "OnOats"], "en": ["Food", "OnOats"] },
+      "summary": {
+        "nl": "Producent van ambachtelijke havercrackers, haverkoeken en granola in Bunschoten-Spakenburg. Innovatieve productontwikkeling bereikt met het merk OnOats de jongere, bewuste consument.",
+        "en": "Producer of artisan oat crackers, oat cookies and granola located in Bunschoten-Spakenburg. Innovative product development reaches the younger, conscious consumer with the oat crackers under the OnOats brand."
+      }
+    }
+  ]
+}

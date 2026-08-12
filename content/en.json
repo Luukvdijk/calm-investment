@@ -1,0 +1,288 @@
+{
+  "meta": {
+    "title": "Calm Investments | Entrepreneurial investment firm, Rotterdam",
+    "description": "Calm Investments is an independent entrepreneurial investment firm from Rotterdam, focused on acquisitions and participations in small and midsized Dutch companies with a leading role in their market."
+  },
+  "nav": {
+    "about": "About Us",
+    "approach": "Approach",
+    "portfolio": "Participations",
+    "contact": "Contact"
+  },
+  "hero": {
+    "label": "Long-term partnership",
+    "title": "Partnering with entrepreneurs for the long term.",
+    "subtitle": "An independent entrepreneurial investment firm that focuses on acquisitions and participations in small and midsized companies with a leading role in their market.",
+    "ctaPrimary": "Get in touch",
+    "ctaSecondary": "Our story",
+    "imageAlt": "The Blaak House, Calm Investments office in Rotterdam"
+  },
+  "about": {
+    "title": "The Power of Calm",
+    "paragraphs": [
+      "Calm Investments was established in Rotterdam in 2021. We are an independent entrepreneurial investment firm that focuses on acquisitions and participations in small and midsized companies with a leading position in their niche market.",
+      "We collaborate based on transparency, integrity and mutual trust. From a team-based culture we invest in leading, niche businesses with differentiated offerings and actively support management in strategy, analytics, operations and M&A."
+    ],
+    "stats": [
+      { "value": "20+", "label": "Companies acquired and integrated" },
+      { "value": "2021", "label": "Established in Rotterdam" }
+    ],
+    "imageAlt": "Analysis of business figures on a screen"
+  },
+  "approach": {
+    "label": "Our DNA",
+    "title": "Approach",
+    "intro": "Together with management we tailor where support is needed, to capture the long-term potential of the business with an entrepreneurial approach.",
+    "pillars": [
+      {
+        "title": "Entrepreneurial Partnership",
+        "text": "We stand side by side with management and collaborate based on transparency, integrity and mutual trust."
+      },
+      {
+        "title": "Data & Analytics",
+        "text": "Data analytics that translates numbers into the right questions and decisions to bring the business forward."
+      },
+      {
+        "title": "Growth Strategy & M&A",
+        "text": "Developing growth strategies and evaluating and executing mergers and acquisitions."
+      },
+      {
+        "title": "Financial & Operational Support",
+        "text": "Financial support and operational collaboration, tailored to what the business needs."
+      }
+    ]
+  },
+  "portfolio": {
+    "title": "Participations",
+    "subtitle": "See what we believe in and grow with.",
+    "viewItem": "Visit website",
+    "viewAll": "All participations",
+    "pageLabel": "Portfolio",
+    "pageTitle": "Participations",
+    "pageIntro": "An overview of the companies we are connected to. Each one a Dutch niche business with a strong foundation, a leading market position and room to grow.",
+    "backHome": "Back to home"
+  },
+  "focus": {
+    "label": "Specialization",
+    "title": "Focus areas",
+    "intro": "We focus on Netherlands-based companies with a leading role in their niche market.",
+    "areas": [
+      "Niche Manufacturing",
+      "Value-added Distribution",
+      "Food",
+      "Machine Building",
+      "Healthcare & Pharma"
+    ],
+    "criteriaTitle": "Investment criteria",
+    "criteria": [
+      "EBITDA between EUR 0.5m and 5m",
+      "Niche market leaders with mission-critical offerings",
+      "High value-to-cost proposition for customers",
+      "Consistent earnings history",
+      "Identifiable growth potential",
+      "Experienced management team"
+    ],
+    "imageAlt": "Analysis of business figures on a laptop"
+  },
+  "team": {
+    "title": "Human Capital",
+    "members": [
+      {
+        "name": "Olav van Caldenborgh",
+        "role": "Founder",
+        "bio": "Olav established Calm Investments in 2021. Prior to that he worked at Caldic, a distributor and manufacturer of specialty chemicals and food ingredients, the last 15 years as CEO. With an entrepreneurial approach he has acquired, integrated and helped more than 20 companies make the next step in their development.",
+        "personality": "Olav is a no-nonsense team player with a well-developed feeling for financials: he translates numbers into the right questions to bring a business forward.",
+        "linkedin": "https://www.linkedin.com/in/olav-van-caldenborgh-1501752/",
+        "image": "/images/team-olav.svg",
+        "imageAlt": "Portrait of Olav van Caldenborgh"
+      },
+      {
+        "name": "Jonathan van der Helm",
+        "role": "Founder",
+        "bio": "Jonathan co-founded Calm Investments in 2021. Before that he worked as a strategy consultant at Roland Berger, completing over 15 projects in growth strategy, restructuring and post-merger integration. He holds an MSc in Offshore Engineering and a BSc in Mechanical Engineering from Delft University of Technology.",
+        "personality": "Jonathan is an analytical enthusiast with a can-do mentality: open-minded, a strong communicator and a well-developed problem solver.",
+        "linkedin": "https://www.linkedin.com/in/jonathan-van-der-helm-a3707735/",
+        "image": "/images/team-jonathan.svg",
+        "imageAlt": "Portrait of Jonathan van der Helm"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Shall we talk?",
+    "text": "Do you have a business that is ready for its next phase, or are you looking for a partner who looks beyond the next quarterly figures?",
+    "addressLabel": "The Blaak House",
+    "address": "Blaak 34, 3011 TA Rotterdam",
+    "phone": "+316-1233 8883",
+    "email": "j.vanderhelm@calminvestments.com",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Your full name",
+      "email": "E-mail",
+      "emailPlaceholder": "email@address.com",
+      "message": "Message",
+      "messagePlaceholder": "How can we help you?",
+      "submit": "Send message",
+      "sending": "Sending...",
+      "success": "Thank you for your message. We will get back to you within two business days.",
+      "errors": {
+        "nameRequired": "Please enter your name.",
+        "emailRequired": "Please enter your e-mail address.",
+        "emailInvalid": "Please enter a valid e-mail address.",
+        "messageRequired": "Please enter a message.",
+        "captchaRequired": "Please complete the security check.",
+        "generic": "Something went wrong while sending. Please try again later or e-mail us directly.",
+        "rateLimited": "Too many requests. Please try again in a few minutes."
+      }
+    }
+  },
+  "footer": {
+    "description": "Independent entrepreneurial investment firm with a heart for SMEs and an eye for the long term. Rotterdam, since 2021.",
+    "navigateLabel": "Navigate",
+    "legalLabel": "Legal",
+    "legal": [
+      { "label": "Privacy statement", "href": "/privacy" },
+      { "label": "Terms of use", "href": "/voorwaarden" },
+      { "label": "LinkedIn", "href": "https://www.linkedin.com/company/80161694/" }
+    ],
+    "copyright": "Calm Investments. All rights reserved.",
+    "tagline": "Invest with Patience. Grow with Calm."
+  },
+  "cookieBanner": {
+    "text": "We use analytics cookies (Google Analytics) to measure how this website is used. We only place them with your consent.",
+    "accept": "Accept",
+    "reject": "Reject",
+    "more": "More information",
+    "settings": "Cookie settings"
+  },
+  "legalPages": {
+    "privacy": {
+      "title": "Privacy statement",
+      "updated": "Last updated: 12 August 2026",
+      "sections": [
+        {
+          "title": "1. Who we are",
+          "paragraphs": [
+            "Calm Investments is an independent entrepreneurial investment firm, located at The Blaak House, Blaak 34, 3011 TA Rotterdam, the Netherlands. Calm Investments is the controller for the personal data processed through this website.",
+            "For questions about this privacy statement, please contact us at j.vanderhelm@calminvestments.com or +316-1233 8883."
+          ]
+        },
+        {
+          "title": "2. What data we process",
+          "paragraphs": [
+            "Contact form: when you fill in the contact form, we process your name, e-mail address and the content of your message.",
+            "Technical data: when you visit the website, limited technical data (such as IP address and browser information) is processed for the secure and correct operation of the website, including spam protection and limiting abuse of the contact form.",
+            "Statistics: if you give consent, we process data about your visit (such as pages viewed, visit duration and approximate location) through Google Analytics 4 to analyse how the website is used."
+          ]
+        },
+        {
+          "title": "3. Why we use your data",
+          "paragraphs": [
+            "We use the data from the contact form solely to answer your message and get in touch with you. The legal basis is the performance of your request (pre-contractual phase) or our legitimate interest in responding to messages addressed to us.",
+            "We process technical data based on our legitimate interest in a secure and well-functioning website. Statistics through Google Analytics are processed solely on the basis of your consent, to improve the website.",
+            "We do not use your data for marketing and never sell it to third parties."
+          ]
+        },
+        {
+          "title": "4. Processors and recipients",
+          "paragraphs": [
+            "We use the following processors: Resend (Plus Five Five, Inc., United States) for sending and delivering e-mail from the contact form, whereby your name, e-mail address and message are processed through Resend's systems; Cloudflare Turnstile (Cloudflare, Inc.) for spam protection on the form; and Google Analytics 4 (Google Ireland Ltd.) for website statistics, solely after your consent.",
+            "Data processing agreements apply with these parties. Transfers outside the EEA take place on the basis of appropriate safeguards, such as the EU-U.S. Data Privacy Framework or standard contractual clauses.",
+            "We do not otherwise share your data with third parties, unless we are legally required to do so."
+          ]
+        },
+        {
+          "title": "5. Retention periods",
+          "paragraphs": [
+            "We keep messages sent through the contact form no longer than necessary to handle your request, and no longer than two years after the last contact, unless a longer retention period is legally required or needed for an ongoing business relationship."
+          ]
+        },
+        {
+          "title": "6. Cookies",
+          "paragraphs": [
+            "Functional cookies: this website places a cookie that remembers your language choice (NEXT_LOCALE) and any functional cookies from Cloudflare Turnstile required for spam protection. No consent is required for these functional cookies.",
+            "Analytics cookies: we use Google Analytics 4 to measure how the website is used. These cookies are only placed after you have given consent. You can change or withdraw your choice at any time; without consent no analytics cookies are placed.",
+            "This website does not use third-party advertising or tracking cookies."
+          ]
+        },
+        {
+          "title": "7. Your rights",
+          "paragraphs": [
+            "You have the right to access, rectify and erase your personal data, the right to restrict processing, the right to data portability and the right to object to processing. To exercise these rights, contact us at j.vanderhelm@calminvestments.com.",
+            "If you believe we handle your personal data incorrectly, you have the right to lodge a complaint with the Dutch Data Protection Authority, Autoriteit Persoonsgegevens (autoriteitpersoonsgegevens.nl)."
+          ]
+        },
+        {
+          "title": "8. Changes",
+          "paragraphs": [
+            "We may amend this privacy statement from time to time. The most recent version is always available on this page, with the date of the last change at the top."
+          ]
+        }
+      ]
+    },
+    "terms": {
+      "title": "Terms of use",
+      "updated": "Last updated: 12 August 2026",
+      "sections": [
+        {
+          "title": "1. Applicability",
+          "paragraphs": [
+            "These terms apply to the use of the website of Calm Investments, located at The Blaak House, Blaak 34, 3011 TA Rotterdam, the Netherlands. By using this website, you accept these terms."
+          ]
+        },
+        {
+          "title": "2. Information is not advice or an offer",
+          "paragraphs": [
+            "The content of this website is intended solely as general information about Calm Investments and its activities. Nothing on this website constitutes an offer, invitation or recommendation to buy or sell securities or other financial instruments, nor investment advice, legal advice or tax advice.",
+            "No rights can be derived from the content of this website. For decisions based on information on this website, we recommend obtaining independent professional advice."
+          ]
+        },
+        {
+          "title": "3. Intellectual property",
+          "paragraphs": [
+            "All intellectual property rights to the content of this website, including texts, design and imagery, are held by Calm Investments or its licensors. Reproducing or publishing the content without prior written consent is not permitted, other than for personal, non-commercial use."
+          ]
+        },
+        {
+          "title": "4. Liability",
+          "paragraphs": [
+            "Calm Investments takes the greatest possible care regarding the accuracy and currency of the information on this website, but gives no guarantees as to its completeness, accuracy or currency.",
+            "Calm Investments is not liable for damage arising from the use of this website or from its temporary unavailability, except to the extent that such damage results from intent or deliberate recklessness on the part of Calm Investments."
+          ]
+        },
+        {
+          "title": "5. Links to third-party websites",
+          "paragraphs": [
+            "This website contains links to third-party websites, including the websites of participations. Calm Investments has no control over these websites and is not responsible for their content or privacy policies."
+          ]
+        },
+        {
+          "title": "6. Applicable law",
+          "paragraphs": [
+            "Dutch law applies to the use of this website and these terms. Disputes will be submitted exclusively to the competent court in Rotterdam, the Netherlands."
+          ]
+        },
+        {
+          "title": "7. Contact form and e-mail",
+          "paragraphs": [
+            "Messages sent through the contact form are delivered to us by e-mail via our e-mail service provider Resend. Our privacy statement applies to the processing of your personal data in that process. The contact form is protected against abuse and spam with Cloudflare Turnstile.",
+            "E-mail communication is not guaranteed to be secure or timely. Do not send confidential or price-sensitive information through the contact form."
+          ]
+        },
+        {
+          "title": "8. Changes",
+          "paragraphs": [
+            "Calm Investments may amend these terms from time to time. The most recent version is always available on this page."
+          ]
+        }
+      ]
+    }
+  },
+  "errors": {
+    "notFoundTitle": "Page not found",
+    "notFoundText": "The page you are looking for does not exist or has been moved.",
+    "errorTitle": "Something went wrong",
+    "errorText": "An unexpected error occurred. Please try again.",
+    "retry": "Try again",
+    "backHome": "Back to home"
+  }
+}
