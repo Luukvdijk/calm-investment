@@ -5,13 +5,12 @@
   --color-cream: #faf9f5;
   --color-ink: #20261f;
   --color-ink-soft: #4c544b;
-  --color-pine: #33503f;
-  --color-pine-deep: #2a4234;
+  --color-pine: #145029;
+  --color-pine-deep: #0e3a1e;
   --color-mist: #e6e4da;
   --color-line: #d8d6ca;
   --font-display: var(--font-cormorant), Georgia, serif;
   --font-sans: var(--font-instrument), Arial, sans-serif;
-  --font-logo: var(--font-pacifico), "Brush Script MT", cursive;
 }
 
 html {

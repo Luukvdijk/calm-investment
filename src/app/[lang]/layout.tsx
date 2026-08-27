@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Cormorant_Garamond, Instrument_Sans, Pacifico } from "next/font/google";
+import { Cormorant_Garamond, Instrument_Sans } from "next/font/google";
 import { notFound } from "next/navigation";
 import { getDictionary, isLocale, locales, type Locale } from "@/lib/i18n";
 import { siteUrl, languageAlternates } from "@/lib/site";
@@ -21,12 +21,6 @@ const instrument = Instrument_Sans({
   variable: "--font-instrument",
 });
 
-const pacifico = Pacifico({
-  subsets: ["latin"],
-  weight: "400",
-  variable: "--font-pacifico",
-});
-
 export function generateStaticParams() {
   return locales.map((lang) => ({ lang }));
 }
@@ -43,7 +37,7 @@ export async function generateMetadata({
     metadataBase: new URL(siteUrl),
     title: dict.meta.title,
     description: dict.meta.description,
-    icons: { icon: "/images/favicon.svg" },
+    icons: { icon: "/images/favicon.png" },
     alternates: {
       canonical: `${siteUrl}/${lang}`,
       ...languageAlternates(""),
@@ -65,7 +59,7 @@ export async function generateMetadata({
 }
 
 export const viewport = {
-  themeColor: "#33503f",
+  themeColor: "#145029",
 };
 
 export default async function RootLayout({
@@ -80,10 +74,7 @@ export default async function RootLayout({
   const dict = getDictionary(lang as Locale);
 
   return (
-    <html
-      lang={lang}
-      className={`${cormorant.variable} ${instrument.variable} ${pacifico.variable}`}
-    >
+    <html lang={lang} className={`${cormorant.variable} ${instrument.variable}`}>
       <body>
         <JsonLd lang={lang as Locale} dict={dict} />
         <Nav lang={lang} dict={dict} />

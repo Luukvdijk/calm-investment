@@ -8,7 +8,7 @@ export default function JsonLd({ lang, dict }: { lang: Locale; dict: Dictionary 
     "@id": `${siteUrl}/#organization`,
     name: "Calm Investments",
     url: siteUrl,
-    logo: `${siteUrl}/images/favicon.svg`,
+    logo: `${siteUrl}/images/logo.png`,
     description: dict.meta.description,
     foundingDate: "2021",
     address: {

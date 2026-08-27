@@ -1,3 +1,5 @@
+import { readFile } from "fs/promises";
+import path from "path";
 import { ImageResponse } from "next/og";
 import { getDictionary, isLocale, locales, defaultLocale } from "@/lib/i18n";
 
@@ -29,20 +31,6 @@ async function fetchGoogleFont(
   }
 }
 
-// All-or-nothing: registering only one custom font would make satori render
-// every text in it, so fall back to the default face unless both load.
-async function loadFonts() {
-  const [logo, sans] = await Promise.all([
-    fetchGoogleFont("Pacifico", 400),
-    fetchGoogleFont("Instrument Sans", 500),
-  ]);
-  if (!logo || !sans) return null;
-  return [
-    { name: "Pacifico", data: logo, style: "normal" as const, weight: 400 as const },
-    { name: "Instrument Sans", data: sans, style: "normal" as const, weight: 500 as const },
-  ];
-}
-
 export default async function OgImage({
   params,
 }: {
@@ -50,8 +38,14 @@ export default async function OgImage({
 }) {
   const { lang } = await params;
   const dict = getDictionary(isLocale(lang) ? lang : defaultLocale);
-  const fonts = await loadFonts();
-  const sansFamily = fonts ? "Instrument Sans" : undefined;
+
+  // Official cream wordmark, embedded as a data URI.
+  const logoData = await readFile(
+    path.join(process.cwd(), "public", "images", "logo-cream.png")
+  );
+  const logoSrc = `data:image/png;base64,${logoData.toString("base64")}`;
+
+  const sans = await fetchGoogleFont("Instrument Sans", 500);
 
   return new ImageResponse(
     (
@@ -62,43 +56,21 @@ export default async function OgImage({
           display: "flex",
           flexDirection: "column",
           justifyContent: "space-between",
-          backgroundColor: "#2a4234",
+          backgroundColor: "#0e3a1e",
           padding: "64px 80px",
           color: "#faf9f5",
-          fontFamily: sansFamily,
+          fontFamily: sans ? "Instrument Sans" : undefined,
         }}
       >
-        <div style={{ display: "flex", flexDirection: "column" }}>
-          <div
-            style={{
-              display: "flex",
-              fontSize: 84,
-              lineHeight: 1,
-              fontFamily: fonts ? "Pacifico" : undefined,
-            }}
-          >
-            Calm
-          </div>
-          <div
-            style={{
-              display: "flex",
-              fontSize: 24,
-              letterSpacing: "0.42em",
-              textTransform: "uppercase",
-              marginTop: 10,
-              color: "#c9d4c5",
-            }}
-          >
-            Investments
-          </div>
-        </div>
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img src={logoSrc} width={220} height={115} alt="" />
         <div
           style={{
             display: "flex",
             fontSize: 58,
             lineHeight: 1.15,
             maxWidth: 950,
-            fontWeight: 600,
+            fontWeight: 500,
           }}
         >
           {dict.hero.title}
@@ -120,6 +92,11 @@ export default async function OgImage({
         </div>
       </div>
     ),
-    { ...size, fonts: fonts ?? undefined }
+    {
+      ...size,
+      fonts: sans
+        ? [{ name: "Instrument Sans", data: sans, style: "normal" as const, weight: 500 as const }]
+        : undefined,
+    }
   );
 }

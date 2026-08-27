@@ -111,25 +111,25 @@ export async function POST(req: Request) {
       html: `<!DOCTYPE html>
 <html lang="nl">
 <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head>
-<body style="margin:0;padding:0;background:#F2F1EA;font-family:Georgia,serif;">
-  <table width="100%" cellpadding="0" cellspacing="0" style="background:#F2F1EA;padding:40px 20px;">
+<body style="margin:0;padding:0;background:#F5F4EF;font-family:Georgia,serif;">
+  <table width="100%" cellpadding="0" cellspacing="0" style="background:#F5F4EF;padding:40px 20px;">
     <tr><td align="center">
       <table width="560" cellpadding="0" cellspacing="0" style="max-width:560px;width:100%;">
         <tr><td style="padding-bottom:28px;">
           <p style="margin:0;font-size:22px;color:#20261F;">Calm Investments</p>
-          <p style="margin:6px 0 0;font-size:10px;letter-spacing:0.2em;text-transform:uppercase;color:#33503F;">Nieuw contactverzoek</p>
+          <p style="margin:6px 0 0;font-size:10px;letter-spacing:0.2em;text-transform:uppercase;color:#145029;">Nieuw contactverzoek</p>
         </td></tr>
         <tr><td style="padding-bottom:24px;"><div style="height:1px;background:#D8D6CA;"></div></td></tr>
         <tr><td style="background:#FAF9F5;border:1px solid #D8D6CA;padding:28px;">
-          <p style="margin:0 0 4px;font-size:10px;letter-spacing:0.15em;text-transform:uppercase;color:#33503F;">Naam</p>
+          <p style="margin:0 0 4px;font-size:10px;letter-spacing:0.15em;text-transform:uppercase;color:#145029;">Naam</p>
           <p style="margin:0 0 18px;font-size:15px;color:#20261F;">${safeName}</p>
-          <p style="margin:0 0 4px;font-size:10px;letter-spacing:0.15em;text-transform:uppercase;color:#33503F;">E-mail</p>
+          <p style="margin:0 0 4px;font-size:10px;letter-spacing:0.15em;text-transform:uppercase;color:#145029;">E-mail</p>
           <p style="margin:0 0 18px;font-size:15px;color:#20261F;">${safeEmail}</p>
-          <p style="margin:0 0 4px;font-size:10px;letter-spacing:0.15em;text-transform:uppercase;color:#33503F;">Bericht</p>
+          <p style="margin:0 0 4px;font-size:10px;letter-spacing:0.15em;text-transform:uppercase;color:#145029;">Bericht</p>
           <p style="margin:0;font-size:15px;color:#20261F;line-height:1.7;white-space:pre-wrap;">${safeMessage}</p>
         </td></tr>
         <tr><td style="padding-top:24px;">
-          <a href="mailto:${safeEmail}" style="display:inline-block;background:#33503F;color:#FAF9F5;font-size:12px;letter-spacing:0.1em;text-transform:uppercase;padding:12px 26px;text-decoration:none;">Beantwoord bericht</a>
+          <a href="mailto:${safeEmail}" style="display:inline-block;background:#145029;color:#FAF9F5;font-size:12px;letter-spacing:0.1em;text-transform:uppercase;padding:12px 26px;text-decoration:none;">Beantwoord bericht</a>
         </td></tr>
         <tr><td style="padding-top:28px;">
           <p style="margin:0;font-size:11px;color:#4C544B;">Verstuurd via calminvestments.com op ${new Date().toLocaleString("nl-NL")}</p>
