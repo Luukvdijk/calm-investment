@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Cormorant_Garamond, Instrument_Sans } from "next/font/google";
+import { Cormorant_Garamond, Instrument_Sans, Pacifico } from "next/font/google";
 import { notFound } from "next/navigation";
 import { getDictionary, isLocale, locales, type Locale } from "@/lib/i18n";
 import { siteUrl, languageAlternates } from "@/lib/site";
@@ -19,6 +19,12 @@ const instrument = Instrument_Sans({
   subsets: ["latin"],
   weight: ["400", "500", "600"],
   variable: "--font-instrument",
+});
+
+const pacifico = Pacifico({
+  subsets: ["latin"],
+  weight: "400",
+  variable: "--font-pacifico",
 });
 
 export function generateStaticParams() {
@@ -74,7 +80,10 @@ export default async function RootLayout({
   const dict = getDictionary(lang as Locale);
 
   return (
-    <html lang={lang} className={`${cormorant.variable} ${instrument.variable}`}>
+    <html
+      lang={lang}
+      className={`${cormorant.variable} ${instrument.variable} ${pacifico.variable}`}
+    >
       <body>
         <JsonLd lang={lang as Locale} dict={dict} />
         <Nav lang={lang} dict={dict} />

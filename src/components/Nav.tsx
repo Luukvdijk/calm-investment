@@ -4,6 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import type { Dictionary } from "@/lib/i18n";
 import LanguageToggle from "./LanguageToggle";
+import Logo from "./Logo";
 
 export default function Nav({ lang, dict }: { lang: string; dict: Dictionary }) {
   const [open, setOpen] = useState(false);
@@ -20,10 +21,10 @@ export default function Nav({ lang, dict }: { lang: string; dict: Dictionary }) 
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4 lg:px-8">
         <Link
           href={`/${lang}`}
-          className="display text-xl text-ink"
+          aria-label="Calm Investments"
           onClick={() => setOpen(false)}
         >
-          Calm Investments
+          <Logo tone="dark" />
         </Link>
 
         <nav className="hidden items-center gap-8 md:flex" aria-label="Main">

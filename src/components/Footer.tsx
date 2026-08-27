@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Dictionary } from "@/lib/i18n";
 import CookieSettingsLink from "./CookieSettingsLink";
+import Logo from "./Logo";
 
 export default function Footer({ lang, dict }: { lang: string; dict: Dictionary }) {
   const year = new Date().getFullYear();
@@ -16,7 +17,7 @@ export default function Footer({ lang, dict }: { lang: string; dict: Dictionary 
       <div className="mx-auto max-w-6xl px-6 pb-10 pt-16 lg:px-8">
         <div className="grid gap-12 md:grid-cols-[1.4fr_1fr_1fr]">
           <div>
-            <p className="display text-2xl">Calm Investments</p>
+            <Logo tone="light" size="lg" />
             <p className="mt-5 max-w-xs text-sm leading-relaxed text-cream/60">
               {dict.footer.description}
             </p>
