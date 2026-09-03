@@ -129,6 +129,7 @@
         "emailRequired": "Please enter your e-mail address.",
         "emailInvalid": "Please enter a valid e-mail address.",
         "messageRequired": "Please enter a message.",
+        "tooLong": "The input is too long. Please shorten your message and try again.",
         "captchaRequired": "Please complete the security check.",
         "generic": "Something went wrong while sending. Please try again later or e-mail us directly.",
         "rateLimited": "Too many requests. Please try again in a few minutes."

@@ -129,6 +129,7 @@
         "emailRequired": "Vul uw e-mailadres in.",
         "emailInvalid": "Vul een geldig e-mailadres in.",
         "messageRequired": "Vul een bericht in.",
+        "tooLong": "De invoer is te lang. Kort uw bericht in en probeer het opnieuw.",
         "captchaRequired": "Rond de beveiligingscontrole af.",
         "generic": "Er ging iets mis bij het versturen. Probeer het later opnieuw of mail ons direct.",
         "rateLimited": "Te veel verzoeken. Probeer het over enkele minuten opnieuw."

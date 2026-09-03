@@ -38,6 +38,7 @@ beforeEach(() => {
   sendMock.mockReset();
   sendMock.mockResolvedValue({ error: null });
   delete process.env.TURNSTILE_SECRET_KEY;
+  process.env.RESEND_API_KEY = "re_test_key";
 });
 
 afterEach(() => {
@@ -128,6 +129,27 @@ describe("POST /api/contact", () => {
     const res = await POST(makeRequest({ ...valid, turnstileToken: "tok" }));
     expect(res.status).toBe(200);
     expect(sendMock).toHaveBeenCalledOnce();
+  });
+
+  it("returns a clear 500 when RESEND_API_KEY is not configured", async () => {
+    delete process.env.RESEND_API_KEY;
+    const res = await POST(makeRequest(valid));
+    expect(res.status).toBe(500);
+    const body = await res.json();
+    expect(body.code).toBe("not_configured");
+    expect(body.error).toBe(nl.contact.form.errors.generic);
+    expect(sendMock).not.toHaveBeenCalled();
+  });
+
+  it("rejects an oversized message with a localized error", async () => {
+    const res = await POST(
+      makeRequest({ ...valid, lang: "en", message: "x".repeat(5001) })
+    );
+    expect(res.status).toBe(400);
+    const body = await res.json();
+    expect(body.code).toBe("tooLong");
+    expect(body.error).toBe(en.contact.form.errors.tooLong);
+    expect(sendMock).not.toHaveBeenCalled();
   });
 
   it("returns a localized 500 when Resend fails", async () => {

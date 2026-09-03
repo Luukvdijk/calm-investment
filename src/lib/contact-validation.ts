@@ -2,7 +2,12 @@ export type ContactErrorCode =
   | "nameRequired"
   | "emailRequired"
   | "emailInvalid"
-  | "messageRequired";
+  | "messageRequired"
+  | "tooLong";
+
+export const MAX_NAME_LENGTH = 200;
+export const MAX_EMAIL_LENGTH = 320;
+export const MAX_MESSAGE_LENGTH = 5000;
 
 export interface ContactInput {
   name?: unknown;
@@ -21,5 +26,12 @@ export function validateContact(input: ContactInput): ContactErrorCode | null {
   if (!email) return "emailRequired";
   if (!EMAIL_RE.test(email)) return "emailInvalid";
   if (!message) return "messageRequired";
+  if (
+    name.length > MAX_NAME_LENGTH ||
+    email.length > MAX_EMAIL_LENGTH ||
+    message.length > MAX_MESSAGE_LENGTH
+  ) {
+    return "tooLong";
+  }
   return null;
 }

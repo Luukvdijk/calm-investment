@@ -93,6 +93,17 @@ export async function POST(req: Request) {
     }
   }
 
+  // Fail fast with a clear server log when e-mail sending is not configured.
+  if (!process.env.RESEND_API_KEY) {
+    console.error(
+      "Contact form: RESEND_API_KEY is not set; cannot send e-mail."
+    );
+    return NextResponse.json(
+      { error: t.generic, code: "not_configured" },
+      { status: 500 }
+    );
+  }
+
   const to = process.env.CONTACT_TO_EMAIL ?? "j.vanderhelm@calminvestments.com";
   const from =
     process.env.CONTACT_FROM_EMAIL ?? "Calm Investments <onboarding@resend.dev>";
