@@ -62,6 +62,31 @@ a:hover .img-quiet {
   filter: grayscale(0.4) contrast(1.02);
 }
 
+/* Warme beeldbehandeling: licht ontzadigd en naar warm getrokken, met een
+   subtiele groene tint zodat elke foto bij de huisstijl past.
+   Positionering komt van de utility-classes op het element zelf (relative of
+   absolute); hier alleen de behandeling, anders wint deze ongelaagde regel
+   het van Tailwind. */
+.photo-warm {
+  isolation: isolate;
+  overflow: hidden;
+}
+.photo-warm img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: saturate(0.8) contrast(1.05) sepia(0.22) brightness(1.02);
+}
+.photo-warm::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: rgba(19, 80, 41, 0.2);
+  mix-blend-mode: multiply;
+}
+
 /* Scroll reveal */
 .reveal {
   opacity: 0;

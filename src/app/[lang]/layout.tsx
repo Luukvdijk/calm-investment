@@ -37,7 +37,7 @@ export async function generateMetadata({
     metadataBase: new URL(siteUrl),
     title: dict.meta.title,
     description: dict.meta.description,
-    icons: { icon: "/images/favicon.png" },
+    icons: { icon: "/images/favicon.svg" },
     alternates: {
       canonical: `${siteUrl}/${lang}`,
       ...languageAlternates(""),
