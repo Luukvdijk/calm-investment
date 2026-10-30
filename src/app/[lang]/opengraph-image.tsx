@@ -41,9 +41,9 @@ export default async function OgImage({
 
   // Official cream wordmark, embedded as a data URI.
   const logoData = await readFile(
-    path.join(process.cwd(), "public", "images", "logo-cream.png")
+    path.join(process.cwd(), "public", "images", "logo-cream.svg")
   );
-  const logoSrc = `data:image/png;base64,${logoData.toString("base64")}`;
+  const logoSrc = `data:image/svg+xml;base64,${logoData.toString("base64")}`;
 
   const sans = await fetchGoogleFont("Instrument Sans", 500);
 
