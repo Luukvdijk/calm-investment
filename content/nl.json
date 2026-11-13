@@ -10,8 +10,8 @@
     "contact": "Contact"
   },
   "hero": {
-    "label": "Long-term partnership",
-    "title": "Partnering with entrepreneurs for the long term.",
+    "label": "Partner voor de lange termijn",
+    "title": "Samen met ondernemers, voor de lange termijn.",
     "subtitle": "Een onafhankelijke, ondernemende investeringsmaatschappij, gericht op overnames van en deelnemingen in kleine en middelgrote bedrijven met een leidende rol in hun markt.",
     "ctaPrimary": "Neem contact op",
     "ctaSecondary": "Ons verhaal",
@@ -21,11 +21,21 @@
     "title": "De Kracht van Rust",
     "paragraphs": [
       "Calm Investments is in 2021 opgericht in Rotterdam. Wij zijn een onafhankelijke, ondernemende investeringsmaatschappij die zich richt op overnames van en deelnemingen in kleine en middelgrote bedrijven met een leidende positie in hun nichemarkt.",
-      "Wij werken samen op basis van transparantie, integriteit en wederzijds vertrouwen. Vanuit een teamcultuur investeren wij in toonaangevende nichebedrijven met een onderscheidend aanbod en ondersteunen wij het management actief bij strategie, analyse, operatie en overnames."
+      "Wij werken samen op basis van transparantie, integriteit en wederzijds vertrouwen. Vanuit een teamcultuur investeren wij in toonaangevende nichebedrijven met een onderscheidend aanbod en ondersteunen wij het management actief bij strategie, analyse, operatie en overnames. Wij investeren met eigen vermogen."
     ],
     "stats": [
-      { "value": "20+", "label": "Bedrijven overgenomen en geïntegreerd" },
-      { "value": "2021", "label": "Opgericht in Rotterdam" }
+      {
+        "value": "3",
+        "label": "Bedrijven overgenomen en geïntegreerd"
+      },
+      {
+        "value": "2021",
+        "label": "Opgericht in Rotterdam"
+      },
+      {
+        "value": "100%",
+        "label": "Eigen vermogen, geen externe fondsen"
+      }
     ],
     "imageAlt": "Analyse van bedrijfscijfers op een scherm"
   },
@@ -44,11 +54,15 @@
       },
       {
         "title": "Groeistrategie & Overnames",
-        "text": "Het ontwikkelen van groeistrategieën en het beoordelen en uitvoeren van overnames (M&A)."
+        "text": "Het ontwikkelen van groeistrategieën en het beoordelen en uitvoeren van overnames."
       },
       {
         "title": "Financiële & Operationele Steun",
         "text": "Financiële ondersteuning en operationele samenwerking, afgestemd op wat het bedrijf nodig heeft."
+      },
+      {
+        "title": "Eigen Vermogen",
+        "text": "Wij investeren met eigen vermogen, zonder externe fondsen. Dat betekent korte lijnen, veel eigenaarschap en snelle besluitvorming."
       }
     ]
   },
@@ -67,11 +81,11 @@
     "title": "Focusgebieden",
     "intro": "Wij richten ons op Nederlandse bedrijven met een leidende rol in hun nichemarkt.",
     "areas": [
-      "Niche Manufacturing",
-      "Value-added Distribution",
-      "Food",
-      "Machine Building",
-      "Healthcare & Pharma"
+      "Gespecialiseerde Maakindustrie",
+      "Distributie met Toegevoegde Waarde",
+      "Voeding",
+      "Machinebouw",
+      "Zorg & Farma"
     ],
     "criteriaTitle": "Investeringscriteria",
     "criteria": [
@@ -80,7 +94,9 @@
       "Sterke prijs-kwaliteitpropositie voor klanten",
       "Consistente winstgevendheid over de jaren",
       "Aantoonbaar groeipotentieel",
-      "Ervaren managementteam"
+      "Ervaren managementteam",
+      "Meerderheidsbelang",
+      "Geen vaste exittermijn"
     ],
     "imageAlt": "Analyse van bedrijfscijfers op een laptop"
   },
@@ -90,28 +106,28 @@
       {
         "name": "Olav van Caldenborgh",
         "role": "Founder",
-        "bio": "Olav richtte Calm Investments op in 2021. Daarvoor werkte hij bij Caldic, distributeur en producent van specialty chemicals en voedingsingrediënten, waarvan de laatste 15 jaar als CEO. Met een ondernemende aanpak heeft hij meer dan 20 bedrijven overgenomen, geïntegreerd en geholpen met hun volgende stap.",
+        "bio": "Olav richtte Calm Investments op in 2021. Daarvoor werkte hij bij Caldic, distributeur en producent van specialiteitenchemie en voedingsingrediënten, waarvan de laatste 15 jaar als CEO. Met een ondernemende aanpak heeft hij meer dan 20 bedrijven overgenomen, geïntegreerd en geholpen met hun volgende stap.",
         "personality": "Olav is een no-nonsense teamspeler met een sterk gevoel voor cijfers: hij vertaalt financiën naar de juiste vragen om een bedrijf vooruit te brengen.",
         "linkedin": "https://www.linkedin.com/in/olav-van-caldenborgh-1501752/",
-        "image": "/images/team-olav.svg",
+        "image": "/images/team-olav.jpg",
         "imageAlt": "Portret van Olav van Caldenborgh"
       },
       {
         "name": "Jonathan van der Helm",
         "role": "Founder",
-        "bio": "Jonathan is medeoprichter van Calm Investments (2021). Daarvoor werkte hij als strategieconsultant bij Roland Berger, waar hij ruim 15 projecten afrondde rond groeistrategie, herstructurering en post-merger integratie. Hij studeerde Offshore Engineering (MSc) en Werktuigbouwkunde (BSc) aan de TU Delft.",
-        "personality": "Jonathan is een analytische enthousiasteling met een can-do-mentaliteit: open-minded, sterk in communicatie en probleemoplossend vermogen.",
+        "bio": "Jonathan is medeoprichter van Calm Investments (2021). Daarvoor werkte hij als strategieconsultant bij Roland Berger, waar hij ruim 15 projecten afrondde rond groeistrategie, herstructurering en integratie na overnames. Hij studeerde Offshore Engineering (MSc) en Werktuigbouwkunde (BSc) aan de TU Delft.",
+        "personality": "Jonathan is een analytische enthousiasteling met een aanpakkersmentaliteit: ruimdenkend, sterk in communicatie en probleemoplossend vermogen.",
         "linkedin": "https://www.linkedin.com/in/jonathan-van-der-helm-a3707735/",
-        "image": "/images/team-jonathan.svg",
+        "image": "/images/team-jonathan.jpg",
         "imageAlt": "Portret van Jonathan van der Helm"
       }
     ]
   },
   "contact": {
     "title": "Zullen we praten?",
-    "text": "Heeft u een onderneming die toe is aan de volgende fase, of zoekt u een partner die verder kijkt dan de volgende kwartaalcijfers?",
-    "addressLabel": "The Blaak House",
-    "address": "Blaak 34, 3011 TA Rotterdam",
+    "text": "Overweegt u de verkoop of opvolging van uw onderneming, of zoekt u een partner die verder kijkt dan de volgende kwartaalcijfers?",
+    "addressLabel": "Elevatorhuis",
+    "address": "Parklaan 8, 3016 BB Rotterdam",
     "phone": "+316-1233 8883",
     "email": "j.vanderhelm@calminvestments.com",
     "form": {
@@ -139,14 +155,23 @@
   "footer": {
     "description": "Onafhankelijke, ondernemende investeringsmaatschappij met een hart voor het mkb en een oog voor de lange termijn. Rotterdam, sinds 2021.",
     "navigateLabel": "Navigatie",
-    "legalLabel": "Legal",
+    "legalLabel": "Juridisch",
     "legal": [
-      { "label": "Privacyverklaring", "href": "/privacy" },
-      { "label": "Algemene voorwaarden", "href": "/voorwaarden" },
-      { "label": "LinkedIn", "href": "https://www.linkedin.com/company/80161694/" }
+      {
+        "label": "Privacyverklaring",
+        "href": "/privacy"
+      },
+      {
+        "label": "Algemene voorwaarden",
+        "href": "/voorwaarden"
+      },
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/company/80161694/"
+      }
     ],
     "copyright": "Calm Investments. Alle rechten voorbehouden.",
-    "tagline": "Invest with Patience. Grow with Calm."
+    "tagline": "Ondernemend voor de lange termijn"
   },
   "cookieBanner": {
     "text": "Wij gebruiken analytische cookies (Google Analytics) om het gebruik van deze website te meten. Deze plaatsen wij alleen met uw toestemming.",
@@ -163,7 +188,7 @@
         {
           "title": "1. Wie wij zijn",
           "paragraphs": [
-            "Calm Investments is een onafhankelijke, ondernemende investeringsmaatschappij, gevestigd in The Blaak House, Blaak 34, 3011 TA Rotterdam. Calm Investments is verwerkingsverantwoordelijke voor de persoonsgegevens die via deze website worden verwerkt.",
+            "Calm Investments is een onafhankelijke, ondernemende investeringsmaatschappij, gevestigd in het Elevatorhuis, Parklaan 8, 3016 BB Rotterdam. Calm Investments is verwerkingsverantwoordelijke voor de persoonsgegevens die via deze website worden verwerkt.",
             "Voor vragen over deze privacyverklaring kunt u contact opnemen via j.vanderhelm@calminvestments.com of +316-1233 8883."
           ]
         },
@@ -227,7 +252,7 @@
         {
           "title": "1. Toepasselijkheid",
           "paragraphs": [
-            "Deze voorwaarden zijn van toepassing op het gebruik van de website van Calm Investments, gevestigd in The Blaak House, Blaak 34, 3011 TA Rotterdam. Door deze website te gebruiken, aanvaardt u deze voorwaarden."
+            "Deze voorwaarden zijn van toepassing op het gebruik van de website van Calm Investments, gevestigd in het Elevatorhuis, Parklaan 8, 3016 BB Rotterdam. Door deze website te gebruiken, aanvaardt u deze voorwaarden."
           ]
         },
         {

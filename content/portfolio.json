@@ -6,9 +6,18 @@
       "name": "Minéraux",
       "featured": true,
       "status": "active",
-      "image": "/images/portfolio-mineraux.svg",
+      "image": "/images/logo-mineraux.png",
       "website": "https://www.mineraux.nl/",
-      "tags": { "nl": ["Maakindustrie", "Witte pigmenten"], "en": ["Manufacturing", "White pigments"] },
+      "tags": {
+        "nl": [
+          "Maakindustrie",
+          "Witte pigmenten"
+        ],
+        "en": [
+          "Manufacturing",
+          "White pigments"
+        ]
+      },
       "summary": {
         "nl": "Producent van witte pigmenten met een uniek voordeel: het enige veilige en even witte alternatief voor titaniumdioxide (E171) ter wereld, voor onder meer voedselcontact, kunststoffen, inkten en speelgoed.",
         "en": "White pigment manufacturer with a competitive edge: the world's only replacement for titanium dioxide (E171) that is safe and equally white, for food contact, plastics, inks and toys."
@@ -16,28 +25,46 @@
     },
     {
       "id": "koekjesbakkerij-veldt",
-      "name": "Koekjesbakkerij Veldt",
+      "name": "Veldt Cookies",
       "featured": true,
       "status": "active",
-      "image": "/images/portfolio-veldt.svg",
-      "website": "https://www.koekjesbakkerij.nl/",
-      "tags": { "nl": ["Food", "Veenendaal"], "en": ["Food", "Veenendaal"] },
+      "image": "/images/logo-veldt.svg",
+      "website": "https://www.veldtcookiescrackers.nl/",
+      "tags": {
+        "nl": [
+          "Voeding",
+          "Wageningen"
+        ],
+        "en": [
+          "Food",
+          "Wageningen"
+        ]
+      },
       "summary": {
-        "nl": "Producent van traditionele koekjes en biscuits in Veenendaal. Met een leidende marktpositie en innovatieve strategie levert Veldt ambachtelijke koekjes aan retail, bakkerijgroothandels en foodservice.",
-        "en": "Producer of traditional biscuits and cookies located in Veenendaal. With its leading market position and innovative strategy, Veldt supplies artisan biscuits to retail, bakery wholesale customers and the food service industry."
+        "nl": "Producent van premium koeken en koekjes in Wageningen, sinds 1970. Met authentieke recepturen, de beste grondstoffen en een leidende marktpositie levert Veldt aan retail, groothandels, bakkersketens en foodservice.",
+        "en": "Producer of premium cookies and biscuits in Wageningen since 1970. With authentic recipes, the finest ingredients and a leading market position, Veldt supplies retail, wholesale, bakery chains and the foodservice industry."
       }
     },
     {
       "id": "krakend-vers",
-      "name": "Krakend Vers",
+      "name": "Veldt Crackers",
       "featured": true,
       "status": "active",
-      "image": "/images/portfolio-onoats.svg",
-      "website": "https://onoats.nl/",
-      "tags": { "nl": ["Food", "OnOats"], "en": ["Food", "OnOats"] },
+      "image": "/images/logo-onoats.svg",
+      "website": "https://www.onoats.nl/",
+      "tags": {
+        "nl": [
+          "Voeding",
+          "OnOats"
+        ],
+        "en": [
+          "Food",
+          "OnOats"
+        ]
+      },
       "summary": {
-        "nl": "Producent van ambachtelijke havercrackers, haverkoeken en granola in Bunschoten-Spakenburg. Innovatieve productontwikkeling bereikt met het merk OnOats de jongere, bewuste consument.",
-        "en": "Producer of artisan oat crackers, oat cookies and granola located in Bunschoten-Spakenburg. Innovative product development reaches the younger, conscious consumer with the oat crackers under the OnOats brand."
+        "nl": "Producent van ambachtelijke havercrackers en granola. Onder het merk OnOats bereiken de natuurlijke crackers, zonder tarwe, geraffineerde suikers of lactose, de jongere, bewuste consument.",
+        "en": "Producer of artisan oat crackers and granola. Under the OnOats brand, the natural crackers, free from wheat, refined sugars and lactose, reach the younger, conscious consumer."
       }
     }
   ]

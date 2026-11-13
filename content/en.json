@@ -1,18 +1,18 @@
 {
   "meta": {
     "title": "Calm Investments | Entrepreneurial investment firm, Rotterdam",
-    "description": "Calm Investments is an independent entrepreneurial investment firm from Rotterdam, focused on acquisitions and participations in small and midsized Dutch companies with a leading role in their market."
+    "description": "Calm Investments is an independent entrepreneurial investment firm from Rotterdam, focused on acquiring and investing in small and midsized Dutch companies with a leading role in their market."
   },
   "nav": {
     "about": "About Us",
     "approach": "Approach",
-    "portfolio": "Participations",
+    "portfolio": "Portfolio",
     "contact": "Contact"
   },
   "hero": {
     "label": "Long-term partnership",
     "title": "Partnering with entrepreneurs for the long term.",
-    "subtitle": "An independent entrepreneurial investment firm that focuses on acquisitions and participations in small and midsized companies with a leading role in their market.",
+    "subtitle": "An independent entrepreneurial investment firm that focuses on acquiring and investing in small and midsized companies with a leading role in their market.",
     "ctaPrimary": "Get in touch",
     "ctaSecondary": "Our story",
     "imageAlt": "The Blaak House, Calm Investments office in Rotterdam"
@@ -20,12 +20,22 @@
   "about": {
     "title": "The Power of Calm",
     "paragraphs": [
-      "Calm Investments was established in Rotterdam in 2021. We are an independent entrepreneurial investment firm that focuses on acquisitions and participations in small and midsized companies with a leading position in their niche market.",
-      "We collaborate based on transparency, integrity and mutual trust. From a team-based culture we invest in leading, niche businesses with differentiated offerings and actively support management in strategy, analytics, operations and M&A."
+      "Calm Investments was established in Rotterdam in 2021. We are an independent entrepreneurial investment firm that focuses on acquiring and investing in small and midsized companies with a leading position in their niche market.",
+      "We collaborate based on transparency, integrity and mutual trust. From a team-based culture we invest in leading, niche businesses with differentiated offerings and actively support management in strategy, analytics, operations and M&A. We invest our own capital."
     ],
     "stats": [
-      { "value": "20+", "label": "Companies acquired and integrated" },
-      { "value": "2021", "label": "Established in Rotterdam" }
+      {
+        "value": "3",
+        "label": "Companies acquired and integrated"
+      },
+      {
+        "value": "2021",
+        "label": "Established in Rotterdam"
+      },
+      {
+        "value": "100%",
+        "label": "Own capital, no external funds"
+      }
     ],
     "imageAlt": "Analysis of business figures on a screen"
   },
@@ -49,16 +59,20 @@
       {
         "title": "Financial & Operational Support",
         "text": "Financial support and operational collaboration, tailored to what the business needs."
+      },
+      {
+        "title": "Own Capital",
+        "text": "We invest our own capital, without external funds. That means direct communication, strong ownership and fast decision-making."
       }
     ]
   },
   "portfolio": {
-    "title": "Participations",
+    "title": "Portfolio",
     "subtitle": "See what we believe in and grow with.",
     "viewItem": "Visit website",
-    "viewAll": "All participations",
+    "viewAll": "Full portfolio",
     "pageLabel": "Portfolio",
-    "pageTitle": "Participations",
+    "pageTitle": "Portfolio",
     "pageIntro": "An overview of the companies we are connected to. Each one a Dutch niche business with a strong foundation, a leading market position and room to grow.",
     "backHome": "Back to home"
   },
@@ -80,7 +94,9 @@
       "High value-to-cost proposition for customers",
       "Consistent earnings history",
       "Identifiable growth potential",
-      "Experienced management team"
+      "Experienced management team",
+      "Majority stake",
+      "No fixed exit horizon"
     ],
     "imageAlt": "Analysis of business figures on a laptop"
   },
@@ -93,7 +109,7 @@
         "bio": "Olav established Calm Investments in 2021. Prior to that he worked at Caldic, a distributor and manufacturer of specialty chemicals and food ingredients, the last 15 years as CEO. With an entrepreneurial approach he has acquired, integrated and helped more than 20 companies make the next step in their development.",
         "personality": "Olav is a no-nonsense team player with a well-developed feeling for financials: he translates numbers into the right questions to bring a business forward.",
         "linkedin": "https://www.linkedin.com/in/olav-van-caldenborgh-1501752/",
-        "image": "/images/team-olav.svg",
+        "image": "/images/team-olav.jpg",
         "imageAlt": "Portrait of Olav van Caldenborgh"
       },
       {
@@ -102,16 +118,16 @@
         "bio": "Jonathan co-founded Calm Investments in 2021. Before that he worked as a strategy consultant at Roland Berger, completing over 15 projects in growth strategy, restructuring and post-merger integration. He holds an MSc in Offshore Engineering and a BSc in Mechanical Engineering from Delft University of Technology.",
         "personality": "Jonathan is an analytical enthusiast with a can-do mentality: open-minded, a strong communicator and a well-developed problem solver.",
         "linkedin": "https://www.linkedin.com/in/jonathan-van-der-helm-a3707735/",
-        "image": "/images/team-jonathan.svg",
+        "image": "/images/team-jonathan.jpg",
         "imageAlt": "Portrait of Jonathan van der Helm"
       }
     ]
   },
   "contact": {
     "title": "Shall we talk?",
-    "text": "Do you have a business that is ready for its next phase, or are you looking for a partner who looks beyond the next quarterly figures?",
-    "addressLabel": "The Blaak House",
-    "address": "Blaak 34, 3011 TA Rotterdam",
+    "text": "Are you considering the sale or succession of your business, or are you looking for a partner who looks beyond the next quarterly figures?",
+    "addressLabel": "Elevatorhuis",
+    "address": "Parklaan 8, 3016 BB Rotterdam",
     "phone": "+316-1233 8883",
     "email": "j.vanderhelm@calminvestments.com",
     "form": {
@@ -141,9 +157,18 @@
     "navigateLabel": "Navigate",
     "legalLabel": "Legal",
     "legal": [
-      { "label": "Privacy statement", "href": "/privacy" },
-      { "label": "Terms of use", "href": "/voorwaarden" },
-      { "label": "LinkedIn", "href": "https://www.linkedin.com/company/80161694/" }
+      {
+        "label": "Privacy statement",
+        "href": "/privacy"
+      },
+      {
+        "label": "Terms of use",
+        "href": "/voorwaarden"
+      },
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/company/80161694/"
+      }
     ],
     "copyright": "Calm Investments. All rights reserved.",
     "tagline": "Invest with Patience. Grow with Calm."
@@ -163,7 +188,7 @@
         {
           "title": "1. Who we are",
           "paragraphs": [
-            "Calm Investments is an independent entrepreneurial investment firm, located at The Blaak House, Blaak 34, 3011 TA Rotterdam, the Netherlands. Calm Investments is the controller for the personal data processed through this website.",
+            "Calm Investments is an independent entrepreneurial investment firm, located at the Elevatorhuis, Parklaan 8, 3016 BB Rotterdam, the Netherlands. Calm Investments is the controller for the personal data processed through this website.",
             "For questions about this privacy statement, please contact us at j.vanderhelm@calminvestments.com or +316-1233 8883."
           ]
         },
@@ -227,7 +252,7 @@
         {
           "title": "1. Applicability",
           "paragraphs": [
-            "These terms apply to the use of the website of Calm Investments, located at The Blaak House, Blaak 34, 3011 TA Rotterdam, the Netherlands. By using this website, you accept these terms."
+            "These terms apply to the use of the website of Calm Investments, located at the Elevatorhuis, Parklaan 8, 3016 BB Rotterdam, the Netherlands. By using this website, you accept these terms."
           ]
         },
         {
@@ -253,7 +278,7 @@
         {
           "title": "5. Links to third-party websites",
           "paragraphs": [
-            "This website contains links to third-party websites, including the websites of participations. Calm Investments has no control over these websites and is not responsible for their content or privacy policies."
+            "This website contains links to third-party websites, including the websites of our portfolio companies. Calm Investments has no control over these websites and is not responsible for their content or privacy policies."
           ]
         },
         {
