@@ -36,14 +36,15 @@ export default function Focus({ dict }: { dict: Dictionary }) {
               className="absolute -bottom-4 -right-4 h-full w-full bg-pine/10"
               aria-hidden
             />
-            <img
-              src="/images/focus-laptop.svg"
-              alt={dict.focus.imageAlt}
-              width={480}
-              height={280}
-              loading="lazy"
-              className="img-quiet relative aspect-[12/7] w-full object-cover"
-            />
+            <div className="photo-warm relative aspect-[12/7] w-full">
+              <img
+                src="/images/focus-onderdelen.jpg"
+                alt={dict.focus.imageAlt}
+                width={480}
+                height={280}
+                loading="lazy"
+              />
+            </div>
           </div>
           <h3 className="label text-pine">{dict.focus.criteriaTitle}</h3>
           <ul className="mt-5 space-y-3">

@@ -4,6 +4,10 @@ import { ArrowRight } from "lucide-react";
 import type { Dictionary } from "@/lib/i18n";
 import Reveal from "./Reveal";
 
+/**
+ * De klant koos de volledige afbeelding, dus "vol" is de standaard. De halve
+ * variant blijft staan zodat terugschakelen een kwestie van een prop is.
+ */
 export type HeroVariant = "half" | "vol";
 
 /** De tekstkolom, identiek in beide varianten op de kleurstelling na. */
@@ -67,7 +71,7 @@ function HeroText({
 export default function Hero({
   lang,
   dict,
-  variant = "half",
+  variant = "vol",
 }: {
   lang: string;
   dict: Dictionary;
@@ -78,7 +82,7 @@ export default function Hero({
       <section className="relative isolate flex min-h-[78vh] items-end overflow-hidden">
         <div className="photo-warm absolute inset-0 -z-10">
           <img
-            src="/images/hero-placeholder.jpg"
+            src="/images/hero-machinehal.jpg"
             alt={dict.hero.imageAlt}
             fetchPriority="high"
           />
@@ -107,7 +111,7 @@ export default function Hero({
         <Reveal delay={150} className="relative">
           <div className="photo-warm relative h-64 w-full sm:h-80 md:h-full md:min-h-[32rem]">
             <img
-              src="/images/hero-placeholder.jpg"
+              src="/images/hero-machinehal.jpg"
               alt={dict.hero.imageAlt}
               fetchPriority="high"
             />

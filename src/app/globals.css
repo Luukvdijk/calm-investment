@@ -52,16 +52,6 @@ body {
   background: var(--color-line);
 }
 
-/* Grayscale imagery treatment */
-.img-quiet {
-  filter: grayscale(1) contrast(1.05);
-  transition: filter 0.6s ease;
-}
-.group:hover .img-quiet,
-a:hover .img-quiet {
-  filter: grayscale(0.4) contrast(1.02);
-}
-
 /* Warme beeldbehandeling: licht ontzadigd en naar warm getrokken, met een
    subtiele groene tint zodat elke foto bij de huisstijl past.
    Positionering komt van de utility-classes op het element zelf (relative of
