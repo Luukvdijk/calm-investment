@@ -21,14 +21,15 @@ export default function Team({ dict }: { dict: Dictionary }) {
         <div className="mx-auto mt-14 grid max-w-4xl gap-12 md:grid-cols-2">
           {dict.team.members.map((member, i) => (
             <Reveal key={member.name} delay={i * 120}>
-              <img
-                src={member.image}
-                alt={member.imageAlt}
-                width={320}
-                height={380}
-                loading="lazy"
-                className="img-quiet mx-auto aspect-[5/6] w-full max-w-[320px] object-cover"
-              />
+              <div className="photo-warm relative mx-auto aspect-[5/6] w-full max-w-[320px]">
+                <img
+                  src={member.image}
+                  alt={member.imageAlt}
+                  width={320}
+                  height={384}
+                  loading="lazy"
+                />
+              </div>
               <div className="mt-6 flex items-center justify-center gap-3">
                 <h3 className="display text-2xl">{member.name}</h3>
                 <a

@@ -13,8 +13,8 @@ export default function JsonLd({ lang, dict }: { lang: Locale; dict: Dictionary 
     foundingDate: "2021",
     address: {
       "@type": "PostalAddress",
-      streetAddress: "Blaak 34",
-      postalCode: "3011 TA",
+      streetAddress: "Parklaan 8",
+      postalCode: "3016 BB",
       addressLocality: "Rotterdam",
       addressCountry: "NL",
     },

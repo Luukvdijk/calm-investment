@@ -14,14 +14,16 @@ export default function PortfolioCard({
 }) {
   const card = (
     <article className="group flex h-full flex-col bg-cream p-4 shadow-[0_1px_0_var(--color-line)] transition-transform duration-500 hover:-translate-y-1">
-      <img
-        src={item.image}
-        alt={item.name}
-        width={360}
-        height={220}
-        loading="lazy"
-        className="img-quiet aspect-[8/5] w-full object-cover"
-      />
+      {/* Logo van de deelneming: volledig in beeld op een rustig vlak,
+          zonder bijsnijden of filter, zodat de huisstijl intact blijft. */}
+      <div className="aspect-[8/5] w-full overflow-hidden bg-white p-8">
+        <img
+          src={item.image}
+          alt={item.name}
+          loading="lazy"
+          className="h-full w-full object-contain transition-transform duration-500 group-hover:scale-[1.03]"
+        />
+      </div>
       <h3 className="label mt-5 text-sm tracking-[0.12em] text-ink">
         {item.name}
       </h3>
