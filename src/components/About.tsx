@@ -16,14 +16,15 @@ export default function About({ dict }: { dict: Dictionary }) {
             </div>
           </Reveal>
           <Reveal delay={150}>
-            <img
-              src="/images/about-screen.svg"
-              alt={dict.about.imageAlt}
-              width={440}
-              height={330}
-              loading="lazy"
-              className="img-quiet aspect-[4/3] w-full object-cover"
-            />
+            <div className="photo-warm relative aspect-[4/3] w-full">
+              <img
+                src="/images/about-precisie.jpg"
+                alt={dict.about.imageAlt}
+                width={440}
+                height={330}
+                loading="lazy"
+              />
+            </div>
           </Reveal>
         </div>
 
