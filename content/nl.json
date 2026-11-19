@@ -12,7 +12,7 @@
   "hero": {
     "label": "Partner voor de lange termijn",
     "title": "Samen met ondernemers, voor de lange termijn.",
-    "subtitle": "Een onafhankelijke, ondernemende investeringsmaatschappij, gericht op overnames van en deelnemingen in kleine en middelgrote bedrijven met een leidende rol in hun markt.",
+    "subtitle": "Een onafhankelijke, ondernemende investeringsmaatschappij, gericht op overnames van en deelnemingen in kleine en middelgrote bedrijven.",
     "ctaPrimary": "Neem contact op",
     "ctaSecondary": "Ons verhaal",
     "imageAlt": "Machinelijn in de productiehal van een gespecialiseerd maakbedrijf"
@@ -62,7 +62,7 @@
       },
       {
         "title": "Eigen Vermogen",
-        "text": "Wij investeren met eigen vermogen, zonder externe fondsen. Dat betekent korte lijnen, veel eigenaarschap en snelle besluitvorming."
+        "text": "Wij investeren met eigen vermogen, zonder externe fondsen. Dat betekent korte lijnen, eigenaarschap en snelle besluitvorming."
       }
     ]
   },

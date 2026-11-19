@@ -12,7 +12,7 @@
   "hero": {
     "label": "Long-term partnership",
     "title": "Partnering with entrepreneurs for the long term.",
-    "subtitle": "An independent entrepreneurial investment firm that focuses on acquiring and investing in small and midsized companies with a leading role in their market.",
+    "subtitle": "An independent entrepreneurial investment firm that focuses on acquiring and investing in small and midsized companies.",
     "ctaPrimary": "Get in touch",
     "ctaSecondary": "Our story",
     "imageAlt": "Machining line in the production hall of a specialist manufacturer"
@@ -62,7 +62,7 @@
       },
       {
         "title": "Own Capital",
-        "text": "We invest our own capital, without external funds. That means direct communication, strong ownership and fast decision-making."
+        "text": "We invest our own capital, without external funds. That means direct communication, ownership and fast decision-making."
       }
     ]
   },
